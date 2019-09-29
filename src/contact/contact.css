@@ -1,0 +1,91 @@
+.Contact h1 {
+
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.Contact {
+    padding-top: 140px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.boxed {
+    width: 250px;
+    font-size: 25px;
+
+    font-family: 'Pacifico', cursive;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #ff8c00 ;
+
+    float: left;
+}
+
+.container :hover{
+    background-color: #ffcd91;
+    color: white;
+    transition: ease-in 0.5s;
+}
+
+
+p {
+    padding-top: 50px;
+}
+
+.container {
+    width: 100%;
+    left: 0;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 50px;
+    display: flex;
+    border-top: 5px solid #ff8c00;
+}
+
+.container a {
+
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border: 2px solid #ff8c00;
+    padding: 5px 15px;
+}
+
+.container a:hover{
+    background-color: white;
+    transition: ease-in 0.5s;
+    color: #ff8c00;
+}
+
+.container p1 {
+    color: #ff8c00;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+.bottomContainer {
+    background-color: white;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+.bottomContainer img {
+    width:300px;
+    height: auto;
+    padding-bottom: 100px;
+}
